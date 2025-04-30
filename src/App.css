@@ -32,7 +32,98 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* Light Mode (default) */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.card {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.card-dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.card-header,
+.card-footer {
+  background-color: #f1f1f1;
+}
+
+.card-dark .card-header,
+.card-dark .card-footer {
+  background-color: #444444;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.card-dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.card-header,
+.card-footer {
+  background-color: #222222;
+}
+
+.card-dark .card-header,
+.card-dark .card-footer {
+  background-color: #444444;
+}
+
+
+/* For Buttons */
+button {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+button.dark-mode {
+  background-color: #555555;
+  color: #ffffff;
+}
+
+/* For Card Components */
+.card {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.card.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* For Headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+  color: #ffffff;
 }
