@@ -1,47 +1,47 @@
-✅ GitHub Repository
-🔗 GitHub Link: https://github.com/yourusername/react-bootstrap-weather-app
+🔗 GitHub Repository: https://github.com/jhraj963/weather-app
 
-📂 Project Folder Structure
+🌐 Live Demo: https://weather-app-sandy-two-45.vercel.app/
 
-react-bootstrap-weather-app/
-├── public/
-├── src/
-│   ├── components/
-│   │   └── WeatherDisplay.tsx
-│   ├── store/
-│   │   ├── index.ts
-│   │   └── weatherSlice.ts
-│   ├── App.tsx
-│   └── index.tsx
-├── package.json
-├── tsconfig.json
-└── README.md
+📁 Project Structure
+1. public/ – Contains static assets (e.g., index.html, favicon)
 
+2. src/
 
-🛠️ Setup Instructions
-Clone the repository:
-git clone https://github.com/yourusername/react-bootstrap-weather-app.git
-cd react-bootstrap-weather-app
+✅ components/WeatherDisplay.tsx – Component to display weather data
 
-Install dependencies:
-npm install
+✅ store/index.ts – Configures the Redux store
 
-Set up API key:
-Create a .env file and add your OpenWeatherMap API key:
-REACT_APP_WEATHER_API_KEY=your_api_key_here
+✅ store/weatherSlice.ts – Handles API data and Redux logic
 
+✅ App.tsx – Main application component
 
-Run the app:
-npm start
+✅ index.tsx – Entry point that renders the app
 
+3. package.json – Defines dependencies and scripts
+
+4. tsconfig.json – TypeScript configuration
+
+5. README.md – Project documentation
+
+⚙️ Setup Instructions
+1. Clone the repository:
+    git clone https://github.com/jhraj963/weather-app.git
+    cd weather-app
+
+2. Install dependencies:
+    npm install
+
+3. Set up the OpenWeatherMap API key: Create a .env file in the root folder and add:
+    REACT_APP_WEATHER_API_KEY=your_api_key_here
+
+4. Run the development server:
+    npm start
 
 🌟 Features
-✅ Responsive Design: Uses Bootstrap 5 to display the app beautifully on both mobile and desktop.
+✅ Responsive UI: Built with Bootstrap 5 for mobile & desktop
+✅ Search Functionality: Users can search by city name
+✅ State Management: Uses Redux Toolkit
+✅ TypeScript Support: Entire app written in TypeScript
+✅ Loading/Error Handling: Spinner for loading, messages for errors
 
-✅ Search Feature: Users can search for a city name to view weather information.
 
-✅ Redux State Management: Manages city name, weather data, loading, and error states.
-
-✅ TypeScript: The entire project is built using TypeScript.
-
-✅ Loading and Error Handling: Displays a spinner while data is loading and shows error messages if the city name is incorrect.
