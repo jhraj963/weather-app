@@ -7,5 +7,6 @@
                 "distDir": "build"
             }
         }
-    ]
+    ],
+    "buildCommand": "CI=false npm run build"
 }

@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchWeather } from './store/weatherSlice';
 import { RootState } from './store';
-import { WeatherData } from './interfaces/weather';
+// import { WeatherData } from './interfaces/weather';
 import './App.css';
 
 import {
   MDBCard,
-  MDBCardBody,
+  // MDBCardBody,
   MDBCardImage,
   MDBCol,
   MDBContainer,
