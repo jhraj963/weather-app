@@ -1,9 +1,4 @@
 {
-    "buildCommand": "npm install --legacy-peer-deps && npm run build",
-    "ignoreCommand": "git diff --quiet HEAD^ HEAD .",
-    "outputDirectory": "dist"
-}
-{
     "builds": [
         {
             "src": "package.json",
